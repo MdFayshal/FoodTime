@@ -1,0 +1,858 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;500;600;700;800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap');
+
+/* @import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css"; */
+
+
+body {
+    margin: 0;
+    font-family: 'Merienda', cursive;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+header {
+    background-color: #F0F4EC;
+    font-family: 'Poppins', sans-serif;
+    color: #F1F5ED !important;
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 1px solid #CDD1CA;
+}
+
+header nav li {
+    padding: 0px 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header nav li {
+    padding: 0px 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #F1F5ED !important;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px 10px;
+}
+
+.dropdown-menu.show {
+    background: #F0F4EC;
+}
+
+.dropdown-item:hover {
+    background: #e7f1ddf5;
+}
+
+header .btn {
+    background-color: #396C03;
+    font-family: 'Poppins', sans-serif;
+    color: #F1F5ED !important;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px 10px;
+
+}
+
+header .btn:hover {
+    background-color: #ffffff;
+    border: 1px solid #396C03;
+    font-family: 'Poppins', sans-serif;
+    color: #396C03 !important;
+}
+
+.buy {
+    border-radius: 30px;
+    padding: 9px 13px;
+}
+
+.cart {
+    background: orange;
+    padding: 0px 6px;
+    font-size: 14px;
+    right: 25px;
+    top: -18px;
+    position: relative;
+}
+
+.main {
+    background-image: url('images/bg1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 680px;
+    background-color: #F0F4EC;
+
+}
+
+.or-head {
+    font-family: 'Merienda', cursive;
+    color: #396C03;
+    font-size: 56px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 70px;
+    margin-top: 60px;
+
+}
+
+.or-text {
+    font-family: 'Poppins', sans-serif;
+    color: #676767;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.fdimg {
+    background-image: url("images/1foodimg1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+
+
+.form-control.rounded-pill {
+    padding: 15px 55px;
+
+}
+
+.form-control.rounded-pill::placeholder {
+    color: #c7c7c7;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 37px;
+
+}
+
+.fa-circle {
+
+    color: #FF8B00;
+    padding: 10px 4px;
+    font-size: 44px;
+    top: 48px;
+    left: 2px;
+    position: relative;
+    z-index: 1;
+
+}
+
+#button-addon2 {
+    margin-left: -35px;
+    padding: 10px 40px;
+    background: #396C03;
+    color: #ffffff;
+}
+
+.input-group>.form-control:focus,
+.input-group>.form-floating:focus-within,
+.input-group>.form-select:focus {
+    z-index: 0;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #86b7fe00;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, 0);
+}
+
+.card {
+    margin-left: 25%;
+    align-self: center;
+    width: 50%;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.4) 100%);
+    backdrop-filter: blur(6px);
+}
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    color: #FF8B00;
+    font-size: 40px;
+    font-weight: 700px;
+    font-style: normal;
+    line-height: 50px;
+
+
+}
+
+.card-text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    color: #838383;
+}
+
+.ex {
+    height: 600px;
+}
+
+.ex-head {
+    font-family: 'Merienda', cursive;
+    color: #396C03;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 70px;
+    margin-top: 50px;
+
+
+}
+
+.ex-text {
+    /* Paragraph */
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    color: #676767;
+    /* text-align: justify; */
+}
+
+#button-explore {
+    padding: 10px 40px;
+    background: #396C03;
+    color: #ffffff;
+}
+.bikeanime{
+    height: 500px;
+  
+    /* background:url('images/gridbg2.png') ; */
+    position: relative;
+    overflow: hidden;
+}
+.animebg{
+    height: 500px;
+    width: 1500%;
+    background:url('images/building.png') ;
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-repeat: repeat-x;
+    animation: movebg 8s 0.1ms linear infinite;
+ 
+}
+.bike{ 
+    position: absolute;
+    bottom: 15%;
+    left: 0%;
+    animation: bikejump 8s linear infinite;
+    
+}
+/* Animation */
+@keyframes movebg{
+    100%{transform: translateX(-1900px);}
+}
+@keyframes bikejump{
+    from {
+        left: -24%;
+    }
+
+    to {
+        left: 35%;
+    }
+    100%{
+        transform: translateY(-1px);
+        
+    }
+    95%{
+        transform: translateY(2px);
+    }
+    90%{
+        transform: translateY(-1px);
+    }
+    85%{
+        transform: translateY(2px);
+    }
+    80%{
+        transform: translateY(-1px);
+    }
+    75%{
+        transform: translateY(2px);
+    }
+    70%{
+        transform: translateY(-1px);
+    }
+    65%{
+        transform: translateY(2px);
+    }
+    60%{
+        transform: translateY(-1px);
+    }
+    55%{
+        transform: translateY(2px);
+    }
+    50%{
+        transform: translateY(-1px);
+    }
+    45%{
+        transform: translateY(2px);
+        
+    }
+    40%{
+        transform: translateY(-1px);
+    }
+    35%{
+        transform: translateY(2px);
+    }
+    30%{
+        transform: translateY(-1px);
+    }
+    25%{
+        transform: translateY(2px);
+    }
+    20%{
+        transform: translateY(-1px);
+    }
+    15%{
+        transform: translateY(-1px);
+    }
+    10%{
+        transform: translateY(2px);
+    }
+    5%{
+        transform: translateY(-1px);
+    }
+    0%{
+        transform: translateY(-1px);
+    }
+}
+
+/* ================  Max 1200  ================== */
+
+@media (max-width: 1199px) {
+    header nav li {
+        padding: 0px 10px;
+
+    }
+
+    .or-head {
+        font-size: 45px;
+
+    }
+
+    .or-text {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .fdimg {
+        height: 550px;
+
+    }
+
+    .form-control.rounded-pill {
+        padding: 13px 55px;
+    }
+
+    .fa-circle {
+        font-size: 40px;
+        top: 45px;
+
+    }
+
+    .ex-head {
+        font-size: 44px;
+
+    }
+
+    .ex-text {
+
+        font-size: 15px;
+
+    }
+
+    #button-explore {
+        padding: 9px 35px;
+
+    }
+
+    .card {
+        margin-left: 29%;
+        width: 45%;
+
+    }
+
+    .card-title {
+
+        font-size: 35px;
+        line-height: 22px;
+
+    }
+
+    .check {
+        height: 36px;
+    }
+
+    .card-text {
+        font-size: 18px;
+        line-height: 22px;
+
+    }
+
+}
+
+/* ================  Max 992 ================== */
+@media (max-width: 991px) {
+    header nav li {
+        padding: 0px 10px;
+        font-weight: 500;
+        margin: 5px 10px;
+    }
+
+    header .btn {
+
+        font-size: 14px;
+
+        margin: 3px 10px;
+        padding: 6px 10px;
+    }
+
+    .cart {
+        background: orange;
+        padding: 0px 3px;
+        font-size: 11px;
+        right: 23px;
+        top: -16px;
+        position: relative;
+    }
+
+    .main {
+        background-image: url('images/bg1.png');
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size:cover;
+        height: 550px;
+        background-color: #E3EADC;
+
+    }
+
+    .or {
+
+        padding: 0px !important;
+    }
+
+    .or-head {
+        font-size: 34px;
+        line-height: 50px;
+    }
+
+    .or-text {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    #button-addon2 {
+        margin-left: -30px;
+        padding: 2px 22px;
+        font-size: 13px;
+        line-height: 39px;
+    }
+
+    .fdimg {
+        height: 420px;
+    }
+
+    .form-control.rounded-pill {
+        padding: 8px 50px;
+    }
+
+    .form-control.rounded-pill::placeholder {
+        font-size: 14px;
+        line-height: 25px;
+
+    }
+
+    .fa-circle {
+        font-size: 30px;
+        top: 37px;
+    }
+
+    .form {
+        margin-top: -8px;
+    }
+
+    .ex {
+        height: 400px;
+        margin-top: 50px;
+    }
+
+    .ex-head {
+        font-size: 32px;
+        line-height: 55px;
+    }
+
+    .ex-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #button-explore {
+        padding: 4px 30px;
+        font-size: 14px;
+    }
+
+    .card {
+        margin-left: 40%;
+        width: 44%;
+    }
+
+    .card-title {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .check {
+        height: 25px;
+    }
+
+    .card-text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .bike {
+      
+        bottom: 20%;
+
+    }
+    .bike img {
+        height: 282px;
+      }
+
+}
+
+/* ================  Max 768 ================== */
+@media (max-width: 767px) {
+    header nav li {
+        font-size: 16px;
+    }
+
+    .login.btn.rounded-pill.px-5.py-2 {
+        padding: 3px 25px !important;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .btn.buy {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .main {
+        background-image: url('images/bg1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 950px;
+      
+
+    }
+
+    .cart {
+
+        padding: 0px 5px;
+        font-size: 12px;
+        right: 24px;
+        top: -17px;
+
+    }
+.orbg{
+    background-image: url('images/bg1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+    .or-head {
+       
+        font-size: 50px;
+        line-height: 65px;
+        margin-top: 10px;
+    }
+
+    .or-text {
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+    .form-control.rounded-pill {
+        padding: 15px 55px;
+    }
+
+    .fa-circle {
+
+        padding: 10px 6px;
+        top: 46px !important;
+        left: 3px;
+        font-size: 40px !important;
+    }
+
+    #button-addon2 {
+        margin-left: -74px;
+        padding: 8px 38px;
+        font-size: 14px;
+        line-height: 34px;
+    }
+
+    .form-control.rounded-pill::placeholder {
+        font-size: 20px;
+        line-height: 25px;
+
+    }
+
+    .fdimg {
+        height: 480px;
+    }
+
+    .card {
+        margin-left: 45%;
+        width: 38%;
+
+    }
+
+    .card-title {
+        font-size: 30px;
+        line-height: 40px;
+
+
+    }
+
+    .check {
+        height: 30px;
+    }
+
+    .card-text {
+
+        font-size: 18px;
+        line-height: 26px;
+
+    }
+
+    .ex {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .ex-head {
+        font-size: 48px;
+        line-height: 75px;
+        margin-top: 0px;
+    }
+
+    .ex-text {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    #button-explore {
+        padding: 6px 32px;
+        font-size: 16px;
+    }
+    header nav li {
+        font-size: 16px;
+    }
+
+    .login.btn.rounded-pill.px-5.py-2 {
+        padding: 3px 25px !important;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .btn.buy {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .main {
+        background-image: url('images/bg1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 950px;
+        background-color: #F0F4EC;
+
+    }
+
+    .cart {
+
+        padding: 0px 5px;
+        font-size: 12px;
+        right: 24px;
+        top: -17px;
+
+    }
+
+    .or-head {
+        font-size: 50px;
+        line-height: 65px;
+        margin-top: 10px;
+    }
+
+    .or-text {
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+    .form-control.rounded-pill {
+        padding: 15px 55px;
+    }
+
+    .fa-circle {
+
+        padding: 10px 6px;
+        top: 46px !important;
+        left: 3px;
+        font-size: 40px !important;
+    }
+
+    #button-addon2 {
+        margin-left: -74px;
+        padding: 8px 38px;
+        font-size: 14px;
+        line-height: 34px;
+    }
+
+    .form-control.rounded-pill::placeholder {
+        font-size: 20px;
+        line-height: 25px;
+
+    }
+
+    .fdimg {
+        height: 480px;
+    }
+
+    .card {
+        margin-left: 45%;
+        width: 38%;
+
+    }
+
+    .card-title {
+        font-size: 30px;
+        line-height: 40px;
+
+
+    }
+
+    .check {
+        height: 30px;
+    }
+
+    .card-text {
+
+        font-size: 18px;
+        line-height: 26px;
+
+    }
+
+    .ex {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .ex-head {
+        font-size: 48px;
+        line-height: 75px;
+        margin-top: 0px;
+    }
+
+    .ex-text {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    #button-explore {
+        padding: 6px 32px;
+        font-size: 16px;
+    }
+
+}
+/* ================  Max 510================== */
+@media (max-width: 509px) {
+    .main {
+
+        height: 750px;
+        background-color: #F0F4EC;
+
+    }
+
+    .or-head {
+        font-size: 35px;
+        line-height: 46px;
+        margin-top: 8px;
+    }
+
+    .or-text {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    #button-addon2 {
+        margin-left: -30px;
+        padding: 2px 22px;
+        font-size: 13px;
+        line-height: 39px;
+    }
+
+    .fa-circle {
+        padding: 8px 6px;
+        top: 37px !important;
+        left: 2px;
+        font-size: 28px !important;
+    }
+
+    .form-control.rounded-pill {
+        padding: 8px 50px;
+    }
+
+    .form-control.rounded-pill::placeholder {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .fdimg {
+        background-size: contain;
+        height: 380px;
+        width: 100%;
+    }
+
+    .card {
+        margin-left: 45%;
+        width: 40%;
+    }
+
+    .card-title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .check {
+        height: 20px;
+    }
+
+    .card-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .ex-head {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .ex-text {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+
+}
